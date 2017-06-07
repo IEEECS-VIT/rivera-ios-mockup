@@ -13,6 +13,14 @@
 		4B8B9F021EE855890008FA20 /* ieecs_riviera_mockup.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B9F001EE855890008FA20 /* ieecs_riviera_mockup.xcdatamodeld */; };
 		4B8B9F041EE855890008FA20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B8B9F031EE855890008FA20 /* Assets.xcassets */; };
 		4B8B9F071EE855890008FA20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8B9F051EE855890008FA20 /* LaunchScreen.storyboard */; };
+		4B8B9F0F1EE8766C0008FA20 /* StartClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B9F0E1EE8766C0008FA20 /* StartClass.swift */; };
+		4B8B9F111EE876D80008FA20 /* startCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B9F101EE876D80008FA20 /* startCollectionViewController.swift */; };
+		4B8B9F131EE8793A0008FA20 /* StartCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B9F121EE8793A0008FA20 /* StartCollectionViewCell.swift */; };
+		4B8B9F151EE889AF0008FA20 /* SettingsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B9F141EE889AF0008FA20 /* SettingsCollectionViewCell.swift */; };
+		4B8B9F171EE88A6F0008FA20 /* settingsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B9F161EE88A6F0008FA20 /* settingsCollectionViewController.swift */; };
+		4B8B9F191EE88F710008FA20 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B9F181EE88F710008FA20 /* settingsViewController.swift */; };
+		4B8B9F1B1EE8A9700008FA20 /* PremiumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B9F1A1EE8A9700008FA20 /* PremiumViewController.swift */; };
+		4B8B9F211EE8B1220008FA20 /* PremiumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B9F201EE8B1220008FA20 /* PremiumCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		4B8B9F031EE855890008FA20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B8B9F061EE855890008FA20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B8B9F081EE855890008FA20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8B9F0E1EE8766C0008FA20 /* StartClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartClass.swift; sourceTree = "<group>"; };
+		4B8B9F101EE876D80008FA20 /* startCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = startCollectionViewController.swift; sourceTree = "<group>"; };
+		4B8B9F121EE8793A0008FA20 /* StartCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartCollectionViewCell.swift; sourceTree = "<group>"; };
+		4B8B9F141EE889AF0008FA20 /* SettingsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsCollectionViewCell.swift; sourceTree = "<group>"; };
+		4B8B9F161EE88A6F0008FA20 /* settingsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsCollectionViewController.swift; sourceTree = "<group>"; };
+		4B8B9F181EE88F710008FA20 /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		4B8B9F1A1EE8A9700008FA20 /* PremiumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PremiumViewController.swift; sourceTree = "<group>"; };
+		4B8B9F201EE8B1220008FA20 /* PremiumCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PremiumCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +75,14 @@
 				4B8B9EF91EE855890008FA20 /* AppDelegate.swift */,
 				4B8B9EFB1EE855890008FA20 /* ViewController.swift */,
 				4B8B9EFD1EE855890008FA20 /* Main.storyboard */,
+				4B8B9F1A1EE8A9700008FA20 /* PremiumViewController.swift */,
+				4B8B9F201EE8B1220008FA20 /* PremiumCollectionViewCell.swift */,
+				4B8B9F141EE889AF0008FA20 /* SettingsCollectionViewCell.swift */,
+				4B8B9F161EE88A6F0008FA20 /* settingsCollectionViewController.swift */,
+				4B8B9F181EE88F710008FA20 /* settingsViewController.swift */,
+				4B8B9F101EE876D80008FA20 /* startCollectionViewController.swift */,
+				4B8B9F121EE8793A0008FA20 /* StartCollectionViewCell.swift */,
+				4B8B9F0E1EE8766C0008FA20 /* StartClass.swift */,
 				4B8B9F031EE855890008FA20 /* Assets.xcassets */,
 				4B8B9F051EE855890008FA20 /* LaunchScreen.storyboard */,
 				4B8B9F081EE855890008FA20 /* Info.plist */,
@@ -140,7 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B8B9F211EE8B1220008FA20 /* PremiumCollectionViewCell.swift in Sources */,
+				4B8B9F111EE876D80008FA20 /* startCollectionViewController.swift in Sources */,
+				4B8B9F131EE8793A0008FA20 /* StartCollectionViewCell.swift in Sources */,
+				4B8B9F191EE88F710008FA20 /* settingsViewController.swift in Sources */,
+				4B8B9F0F1EE8766C0008FA20 /* StartClass.swift in Sources */,
 				4B8B9EFC1EE855890008FA20 /* ViewController.swift in Sources */,
+				4B8B9F151EE889AF0008FA20 /* SettingsCollectionViewCell.swift in Sources */,
+				4B8B9F1B1EE8A9700008FA20 /* PremiumViewController.swift in Sources */,
+				4B8B9F171EE88A6F0008FA20 /* settingsCollectionViewController.swift in Sources */,
 				4B8B9EFA1EE855890008FA20 /* AppDelegate.swift in Sources */,
 				4B8B9F021EE855890008FA20 /* ieecs_riviera_mockup.xcdatamodeld in Sources */,
 			);
