@@ -31,6 +31,10 @@ class settingsViewController: UIViewController,UICollectionViewDelegate,UICollec
         
     }
     
+    func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
+        print("sharingan")
+    }
+    
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D4A4C07695A43BE786E9A91 /* Pods_ieecs_riviera_mockup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D021D6B6DC70A4DE3628083 /* Pods_ieecs_riviera_mockup.framework */; };
 		4B8B9EFA1EE855890008FA20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B9EF91EE855890008FA20 /* AppDelegate.swift */; };
 		4B8B9EFC1EE855890008FA20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B9EFB1EE855890008FA20 /* ViewController.swift */; };
 		4B8B9EFF1EE855890008FA20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8B9EFD1EE855890008FA20 /* Main.storyboard */; };
@@ -21,6 +22,8 @@
 		4B8B9F191EE88F710008FA20 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B9F181EE88F710008FA20 /* settingsViewController.swift */; };
 		4B8B9F1B1EE8A9700008FA20 /* PremiumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B9F1A1EE8A9700008FA20 /* PremiumViewController.swift */; };
 		4B8B9F211EE8B1220008FA20 /* PremiumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B9F201EE8B1220008FA20 /* PremiumCollectionViewCell.swift */; };
+		4B8B9F241EE8C7820008FA20 /* apis_backend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B9F231EE8C7820008FA20 /* apis_backend.swift */; };
+		4B8B9F261EE8C7A10008FA20 /* classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B9F251EE8C7A10008FA20 /* classes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,11 @@
 		4B8B9F181EE88F710008FA20 /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
 		4B8B9F1A1EE8A9700008FA20 /* PremiumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PremiumViewController.swift; sourceTree = "<group>"; };
 		4B8B9F201EE8B1220008FA20 /* PremiumCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PremiumCollectionViewCell.swift; sourceTree = "<group>"; };
+		4B8B9F231EE8C7820008FA20 /* apis_backend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = apis_backend.swift; sourceTree = "<group>"; };
+		4B8B9F251EE8C7A10008FA20 /* classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = classes.swift; sourceTree = "<group>"; };
+		4D021D6B6DC70A4DE3628083 /* Pods_ieecs_riviera_mockup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ieecs_riviera_mockup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		798DC1CF72E085C32BDC484E /* Pods-ieecs riviera mockup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ieecs riviera mockup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ieecs riviera mockup/Pods-ieecs riviera mockup.debug.xcconfig"; sourceTree = "<group>"; };
+		EA261F171DEF607DAA312360 /* Pods-ieecs riviera mockup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ieecs riviera mockup.release.xcconfig"; path = "Pods/Target Support Files/Pods-ieecs riviera mockup/Pods-ieecs riviera mockup.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,17 +55,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D4A4C07695A43BE786E9A91 /* Pods_ieecs_riviera_mockup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C445737605DE4B4557AC056 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D021D6B6DC70A4DE3628083 /* Pods_ieecs_riviera_mockup.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4B8B9EED1EE855890008FA20 = {
 			isa = PBXGroup;
 			children = (
 				4B8B9EF81EE855890008FA20 /* ieecs riviera mockup */,
 				4B8B9EF71EE855890008FA20 /* Products */,
+				6EC8E0CEB371E9E9A1C0ED47 /* Pods */,
+				0C445737605DE4B4557AC056 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +91,7 @@
 		4B8B9EF81EE855890008FA20 /* ieecs riviera mockup */ = {
 			isa = PBXGroup;
 			children = (
+				4B8B9F221EE8C76B0008FA20 /* api clients */,
 				4B8B9EF91EE855890008FA20 /* AppDelegate.swift */,
 				4B8B9EFB1EE855890008FA20 /* ViewController.swift */,
 				4B8B9EFD1EE855890008FA20 /* Main.storyboard */,
@@ -91,6 +111,24 @@
 			path = "ieecs riviera mockup";
 			sourceTree = "<group>";
 		};
+		4B8B9F221EE8C76B0008FA20 /* api clients */ = {
+			isa = PBXGroup;
+			children = (
+				4B8B9F231EE8C7820008FA20 /* apis_backend.swift */,
+				4B8B9F251EE8C7A10008FA20 /* classes.swift */,
+			);
+			name = "api clients";
+			sourceTree = "<group>";
+		};
+		6EC8E0CEB371E9E9A1C0ED47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				798DC1CF72E085C32BDC484E /* Pods-ieecs riviera mockup.debug.xcconfig */,
+				EA261F171DEF607DAA312360 /* Pods-ieecs riviera mockup.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -98,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B8B9F0B1EE855890008FA20 /* Build configuration list for PBXNativeTarget "ieecs riviera mockup" */;
 			buildPhases = (
+				5A2A2CA879C7C521FC6F7CD5 /* [CP] Check Pods Manifest.lock */,
 				4B8B9EF21EE855890008FA20 /* Sources */,
 				4B8B9EF31EE855890008FA20 /* Frameworks */,
 				4B8B9EF41EE855890008FA20 /* Resources */,
+				52635B7DB9BB3DF1D7D41555 /* [CP] Embed Pods Frameworks */,
+				FC71FB4324CE267116D4F435 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,16 +200,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52635B7DB9BB3DF1D7D41555 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ieecs riviera mockup/Pods-ieecs riviera mockup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A2A2CA879C7C521FC6F7CD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC71FB4324CE267116D4F435 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ieecs riviera mockup/Pods-ieecs riviera mockup-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4B8B9EF21EE855890008FA20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4B8B9F211EE8B1220008FA20 /* PremiumCollectionViewCell.swift in Sources */,
+				4B8B9F241EE8C7820008FA20 /* apis_backend.swift in Sources */,
 				4B8B9F111EE876D80008FA20 /* startCollectionViewController.swift in Sources */,
 				4B8B9F131EE8793A0008FA20 /* StartCollectionViewCell.swift in Sources */,
 				4B8B9F191EE88F710008FA20 /* settingsViewController.swift in Sources */,
 				4B8B9F0F1EE8766C0008FA20 /* StartClass.swift in Sources */,
+				4B8B9F261EE8C7A10008FA20 /* classes.swift in Sources */,
 				4B8B9EFC1EE855890008FA20 /* ViewController.swift in Sources */,
 				4B8B9F151EE889AF0008FA20 /* SettingsCollectionViewCell.swift in Sources */,
 				4B8B9F1B1EE8A9700008FA20 /* PremiumViewController.swift in Sources */,
@@ -297,6 +388,7 @@
 		};
 		4B8B9F0C1EE855890008FA20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 798DC1CF72E085C32BDC484E /* Pods-ieecs riviera mockup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 22MQY5GLD5;
@@ -310,6 +402,7 @@
 		};
 		4B8B9F0D1EE855890008FA20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA261F171DEF607DAA312360 /* Pods-ieecs riviera mockup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 22MQY5GLD5;
@@ -340,6 +433,7 @@
 				4B8B9F0D1EE855890008FA20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

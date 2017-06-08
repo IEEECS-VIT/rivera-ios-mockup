@@ -13,26 +13,49 @@ private let reuseIdentifier = "Cell"
 class StartCollectionViewController: UICollectionViewController {
     
     
-    private var startSet: [Start] = [ Start(name: "Premium", backImage: "candle"),
-                                      Start(name: "Pre Riviera", backImage: "cat"),
-                                      Start(name: "Workshop", backImage: "dribble"),
-                                      Start(name: "Formal", backImage: "ghost"),
-                                      Start(name: "Informal", backImage: "hat"),
-                                      Start(name: "Adventure Sports", backImage: "owl")
+    
+    
+    
+    private var startSet: [Start] = [ Start(name: "Premium", backImage: "1"),
+                                      Start(name: "Pre Riviera", backImage: "2"),
+                                      Start(name: "Workshop", backImage: "3"),
+                                      Start(name: "Formal", backImage: "4"),
+                                      Start(name: "Informal", backImage: "5"),
+                                      Start(name: "Adventure Sports", backImage: "6")
 
                                       
     ]
 
+    
+    //segue
+    
+    //code for seague overriding
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "showRestaurantDetail" {
+//            if let indexPath = tableView.indexPathForSelectedRow {
+//                let destinationController = segue.destination as! restaurantDetailViewController
+//                
+//                //passing strings in the window
+//                destinationController.restaurantImage = restaurantImages[indexPath.row]
+//                destinationController.restaurantName = restaurantNames[indexPath.row]
+//                destinationController.restaurantLocation = restaurantLabel[indexPath.row]
+//                destinationController.restaurantType = restaurantType[indexPath.row]
+//                
+//            }
+//        }
+//        
+//    }
+
+//
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "firstLevelDetail"{
+//            if let
+//    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Register cell classes
-        //self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
-
-        // Do any additional setup after loading the view.
+        self.title = "Our Events"
+        
     }
 
     override func didReceiveMemoryWarning() {
